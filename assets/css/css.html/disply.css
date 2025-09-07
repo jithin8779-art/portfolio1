@@ -1,0 +1,41 @@
+.outerdiv{
+    background-color: cadetblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+div.one{
+    background-color: aqua;
+    width: 50px;
+    height:50px ;
+    flex-grow: 5;
+    
+    
+}
+div.two{
+    background-color: blue;
+    width: 50px;
+    height:50px ;
+    order: 2;
+    flex-shrink: calc();
+    
+}
+div.three{
+    background-color: rebeccapurple;
+    width: 50px;
+    height:50px ;
+}
+div.four{
+    background-color: chartreuse;
+    width: 50px;
+    height:50px ;
+}
+div.five{
+    background-color: fuchsia;
+    width: 50px;
+    height:50px ;
+}
